@@ -14,6 +14,6 @@ Vehicle::~Vehicle()
 }
 
 
-void Vehicle::changeState() {
+void Agent::changeState() {
 
 }

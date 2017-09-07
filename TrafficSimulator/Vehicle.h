@@ -6,6 +6,10 @@ class Vehicle :
 public:
 	Vehicle();
 	~Vehicle();
+	int maxSpeed;
+	int acceleration;
+	int deceleration;
+
 
 };
 

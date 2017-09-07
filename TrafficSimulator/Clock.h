@@ -7,6 +7,7 @@ public:
 	unsigned int counter;
 	void advanceTime();
 	void advanceEntity();
+	void start();
 
 
 
