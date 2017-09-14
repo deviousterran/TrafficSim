@@ -2,15 +2,15 @@
 #include "Sim.h"
 
 
-//agent class is hte base class for the ligths and vehicles so i only have to build messaging and state changes once.  I hate re-typing code!!!
-class Agent :
-	public Sim
+
+//agent class is the base class for the lights and vehicles so i only have to build messaging and state changes once.  I hate re-typing code!!!
+class Agent : public Sim
 {
 public:
 	Agent();
 	~Agent();
 
-	void changeState();
+	//void changeState();
 	void sendMessage();
 	void receiveMessage(int &message);//receive a enumerated message and react to it.
 };

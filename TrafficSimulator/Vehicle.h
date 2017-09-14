@@ -1,7 +1,9 @@
 #pragma once
 #include "Agent.h"
-class Vehicle :
-	public Agent
+
+class Agent;
+
+class Vehicle : public Agent
 {
 public:
 	Vehicle();
@@ -9,7 +11,7 @@ public:
 	int maxSpeed;
 	int acceleration;
 	int deceleration;
-
+	void changeState();
 
 };
 

@@ -1,0 +1,4 @@
+﻿  Light.cpp
+d:\balefire\documents\dev\c++\trafficsimulator\trafficsimulator\light.cpp(73): warning C4715: 'Light::reportState': not all control paths return a value
+  TrafficSimulator.vcxproj -> D:\Balefire\Documents\Dev\C++\TrafficSimulator\Debug\TrafficSimulator.exe
+  TrafficSimulator.vcxproj -> D:\Balefire\Documents\Dev\C++\TrafficSimulator\Debug\TrafficSimulator.pdb (Full PDB)

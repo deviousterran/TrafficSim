@@ -12,9 +12,9 @@ Agent::~Agent()
 }
 
 
-void Agent::changeState() {
-
-}
+//void Agent::changeState() {
+//
+//}
 
 
 void Agent::sendMessage() {
