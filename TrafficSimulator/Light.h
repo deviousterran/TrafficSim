@@ -25,7 +25,7 @@ public:
 	std::string debugOutput();//returns a string of class variables for easy printing
 
 	std::string reportState();
-	void updateState();
+	bool updateState();
 
 
 

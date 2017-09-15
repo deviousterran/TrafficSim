@@ -22,8 +22,7 @@ Light::Light(double lenOfGreenTime, double lenOfyellowTime, double lenOfredTime,
 Light::~Light()
 {
 }
-
-void Light::updateState() {
+bool Light::updateState() {
 	
 
 	switch (lightColor)
@@ -33,6 +32,7 @@ void Light::updateState() {
 		{
 			lightColor = yellow;
 			timerStart = clock();
+			return true;
 		}
 		break;
 	case Light::yellow:
@@ -40,6 +40,7 @@ void Light::updateState() {
 		{
 			lightColor = red;
 			timerStart = clock();
+			return true;
 		}
 		break;
 	case Light::red:
@@ -47,11 +48,13 @@ void Light::updateState() {
 		{
 			lightColor = green;
 			timerStart = clock();
+			return true;
 		}
 		break;
 	default:
 		break;
 	}
+	return false;
 }
 
 
