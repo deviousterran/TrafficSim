@@ -23,12 +23,12 @@ public:
 	Light *Light2;
 	State CurrentState;
 	int carID;
-	
+	int position;
 
 	bool canMove;
 	void changeState();
 	void update();
-
+	void swap(Vehicle input);
 
 };
 
